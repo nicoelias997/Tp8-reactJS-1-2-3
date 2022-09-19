@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const ejercicio1 = (props) => {
-
-
   return (
-   
     <div>
-        <h1>Hello {props.mensaje}{props.clave}</h1>
+      <h1>
+        Hello {props.mensaje}
+        {props.clave}
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default ejercicio1
+export default ejercicio1;
